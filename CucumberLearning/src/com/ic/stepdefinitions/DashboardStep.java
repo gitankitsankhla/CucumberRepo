@@ -32,7 +32,6 @@ public class DashboardStep extends SeleniumDrivers {
 		mouseHover(userMenu);
 		click(preference);
 		click(defaultHomepage);
-		System.out.println("TEst Git");
 
 	}
 
