@@ -37,7 +37,7 @@ public class DashboardStep extends SeleniumDrivers {
 
 	@Then("^page should be open and contain 'Default Homepage' as title$")
 	public void page_should_be_open_and_contain_Default_Homepage_as_title() {
-
+			
 		verifyEquals(getElementText(defaultHomepage), "Default Homepage");
 
 	}
